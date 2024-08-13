@@ -1,0 +1,14 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+
+gunicorn = "*"
+flask = "*"
+joblib = "*"
+scikit-learn = "*"
+
+[requires]
+python_version = "3.6"

@@ -35,7 +35,7 @@ if tabela:
         valores = linha.find_all('td')
 
         for item in valores:
-            if (cont < 14):
+            if (cont < 14): 
                 values.append(item.text)
 
                 sql = "insert into despesas (mes, valor) values ({}, {})".format(columns[cont], values[cont])
